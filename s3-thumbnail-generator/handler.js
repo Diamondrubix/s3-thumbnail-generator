@@ -4,8 +4,8 @@
  */
 
 // Dependencies
-let async = require('async');
 let AWS = require('aws-sdk');
+let async = require('async');
 let util = require('util');
 // Enable ImageMagick integration.
 let gm = require('gm').subClass({ imageMagick: true });
